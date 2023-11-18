@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mijn pagina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+header{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Zeyada', cursive;
+  padding-top: 5px;
+}
+img{
+  max-height: 200px;
+}
+.headertekst{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+[class*="col-"]{
+    width: 95%;
+    padding: 3%;
+}
+.col-2{
+    background-color: #279F9F;
+}
+.col-9{
+    background-color: #5EBEBE;
+}
+@media only screen and (min-width: 992px) {
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+.div-artikelen{
+    padding: 30px;
+    border-style: double;
+    border-color: white;
+    border-width: 5px 5px 5px 5px;
+}
+.div-afbeeldingen{
+    float: right;
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 15px;
+}
+footer{
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+    <img src="leiden.jpg" alt="foto van Leiden">
+    <div class="headertekst"><h1>Leiden</h1></div>
+</header>
+<div class="row">
+    <div class="col-2">
+        Wist je dat...    
+        <ul>
+        <li>Leiden na Amsterdam de meeste grachten heeft?</li>
+        <li>De Blauwpoortsbrug alleen voor Sinterklaas opengaat?</li>
+        <li>De relativiteitsformule in 1905 werd ontwikkeld door Albert Einstein in Leiden?</li>
+        <li>De eerste Nederlandse tulpen in Leiden werden gecultiveerd?</li>
+        <li>De oudste nog bestaande universitaire sterrenwacht ter wereld in Leiden staat?</li>
+        </ul>
+    </div>
+    <div class="col-9">
+        <div class="div-artikelen">
+            <img class="div-afbeeldingen" src="Rijksmuseumderoudheden.jpeg" alt="foto van Rijksmuseum van Oudheden">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget magna viverra, porttitor dui vitae, fringilla sapien. Etiam non blandit nisi. Curabitur ultricies, turpis ultricies ullamcorper consectetur, enim lacus vestibulum augue, ut egestas elit nisi at neque. Vivamus malesuada vulputate posuere. Cras sed felis tellus. Donec ut fringilla ipsum. Nulla quis cursus augue. Phasellus sapien ligula, feugiat ut sodales non, vehicula eu enim.
+            <br><br>
+            Phasellus in dolor neque. Praesent ut urna vel neque ultricies interdum at eu libero. Pellentesque gravida et diam quis semper. Proin sit amet rhoncus tortor, at consectetur eros. Phasellus in euismod lorem. Nunc elementum nisl non consectetur imperdiet. Suspendisse venenatis quam nibh, ac lobortis elit ultricies eget. Maecenas ac dui pellentesque, ultricies orci vitae, aliquam velit.
+        </div>
+        <div class="div-artikelen">
+            <img class="div-afbeeldingen" src="Naturalis.jpeg" alt="foto van Naturalis">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat nulla nisl, non scelerisque lacus auctor id. Cras volutpat sem est, vitae consequat eros suscipit sit amet. Nunc condimentum luctus diam, et pellentesque quam. Morbi viverra purus id risus facilisis volutpat. Vivamus eleifend quis orci non rutrum. Vivamus sed mi at mi tempor condimentum. In iaculis, elit sed eleifend aliquet, ex risus lobortis velit, sed laoreet nunc quam a tortor.
+            <br><br>
+            Fusce id hendrerit elit, nec pretium risus. Sed vel sem posuere, accumsan mi ac, placerat eros. Nunc tincidunt semper euismod. Donec sit amet augue nec orci venenatis faucibus. Nullam auctor non urna vitae commodo. Cras at eros tortor. Nunc at fringilla ligula. Sed sed erat faucibus, pretium ante euismod, eleifend ipsum. Mauris vel mauris fringilla, pulvinar velit eget, convallis lectus. In pellentesque dui nec sapien tincidunt volutpat. Nam nec dolor ut nibh sollicitudin placerat lacinia id ex. Vivamus aliquam nunc ut tellus suscipit, eu sodales lorem sollicitudin.
+        </div>
+    </div>
+        <div class="col-12">
+        <footer><p>
+            &copy; Copyright 2023 Erwin Schäfer. All rights reserved.</p>
+        </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
